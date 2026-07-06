@@ -7,10 +7,7 @@ import { About } from '@/pages/About'
 import { Product } from '@/pages/Product'
 import { Contact } from '@/pages/Contact'
 import { Admin } from '@/pages/Admin'
-<<<<<<< HEAD
 import { VerifyCertificate } from '@/pages/VerifyCertificate'
-=======
->>>>>>> 40b02bc880a51c448b7caa873623962d16d1887b
 
 function CursorGlow() {
   const mouseX = useMotionValue(-100)
@@ -46,10 +43,7 @@ function CursorGlow() {
 function AppRoutes() {
   const location = useLocation()
 
-<<<<<<< HEAD
   // Standalone pages: no navbar
-=======
->>>>>>> 40b02bc880a51c448b7caa873623962d16d1887b
   if (location.pathname === '/admin') {
     return (
       <Routes>
@@ -58,7 +52,6 @@ function AppRoutes() {
     )
   }
 
-<<<<<<< HEAD
   if (location.pathname.startsWith('/verify/')) {
     return (
       <Routes>
@@ -67,8 +60,6 @@ function AppRoutes() {
     )
   }
 
-=======
->>>>>>> 40b02bc880a51c448b7caa873623962d16d1887b
   return (
     <>
       <Navbar />
@@ -91,8 +82,4 @@ export default function App() {
       <AppRoutes />
     </div>
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 40b02bc880a51c448b7caa873623962d16d1887b
