@@ -18,4 +18,12 @@ export const certificates: Record<string, Certificate> = {
     issued_date: "12 June 2026",
     status: "verified",
   },
+  "UM-2026-0002": {
+    student_name: "kartik ashok Pawanpalle",
+    role: "python programming",
+    start_date: "1 May 2026",
+    end_date: "12 June 2026",
+    issued_date: "12 June 2026",
+    status: "verified",
+  },
 };
